@@ -1,0 +1,20 @@
+@import '../../../../../scss/index.scss';
+
+.form__chat-container {
+    display:flex;
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    input {
+        @include size(70%, 40px);
+        @include inputStyle(auto, 6px, none, 30px, $inputFon, #f5f5f5);
+    }
+    input::placeholder {
+        color: #616d78;
+    }
+    button {
+        @include buttonStyle(30%, auto, 0px 60px 0px 0px ,$inputFon, #2b5278, 24px);
+        text-align: end;
+    }
+    button:hover { color: #549ee7; }
+}

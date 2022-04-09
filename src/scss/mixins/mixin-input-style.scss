@@ -1,0 +1,8 @@
+@mixin inputStyle($margin, $padding, $border, $fontSize, $fon, $color) {
+    padding: $padding;
+    border: $border;
+    font-size: $fontSize;
+    background-color: $fon;
+    color: $color;
+    outline: none;
+}

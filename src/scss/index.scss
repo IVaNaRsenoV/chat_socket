@@ -1,0 +1,13 @@
+// Подключаем миксины
+@import './mixins/mixin-color.scss';
+@import './mixins/mixin-flexible.scss';
+@import './mixins/mixin-size.scss';
+@import './mixins/mixin-identation.scss';
+@import './mixins/mixin-button-style.scss';
+@import './mixins/mixin-input-style.scss';
+
+// Подключаем шаблоны
+@import './templates/messages.scss';
+
+// Подключаем переменные
+@import './variables/variables.scss';

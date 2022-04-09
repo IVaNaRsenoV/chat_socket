@@ -1,0 +1,12 @@
+@mixin buttonStyle($width, $height, $padding , $fon, $color, $fontSize) {
+    width: $width;
+    height: $height;
+    padding: $padding;
+    background-color: $fon;
+    color: $color; 
+    font-size: $fontSize;
+    border: none;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    border: none;
+}

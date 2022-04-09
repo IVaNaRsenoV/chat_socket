@@ -1,0 +1,4 @@
+@mixin color($fon, $colorInside) {
+    background-color: $fon;
+    color: $colorInside;
+}
